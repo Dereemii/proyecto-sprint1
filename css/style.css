@@ -16,6 +16,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -387,8 +388,30 @@ footer {
 
 .icons-social i {
     color: var(--color-principal);
+    font-size: 18px;
 }
 
 .icons-social i:hover {
     color: var(--text-hover);
 }
+
+/* INICIO MEDIA QUERY */
+
+/* MOBILE S */
+@media screen and (min-width:319px) and (max-width:374px) {}
+
+/*Mobile M*/
+@media screen and (min-width:375px) and (max-width:424px) {}
+
+/*Mobile L*/
+@media screen and (min-width:425px) and (max-width:767.98px) {}
+
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:1023.98px) {}
+
+/* TABLET GRANDE */
+@media screen and (min-width:1024px) and (max-width:1299.98px) {}
+
+/* LAPTOP */
+
+@media screen and (min-width:1300px) and (max-width:1500px) {}
