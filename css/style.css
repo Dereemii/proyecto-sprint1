@@ -62,6 +62,7 @@ header .head-container nav ul {
     align-items: center;
     list-style: none;
     padding: 0;
+    background-color: var(--button-hover);
 }
 
 header .head-container nav ul li a {
@@ -81,6 +82,40 @@ header .head-container nav ul li a:hover {
 header .head-container nav ul li a:active {
     color: var(--text-active);
     text-decoration: line-through;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.menu-icon:before,
+.menu-icon:after {
+    background-color: var(--color-principal);
+    content: '';
+    display: block;
+    height: 4px;
+    transition: all 200ms ease-in-out;
+}
+
+.menu-icon:before {
+    box-shadow: 0 10px 0 var(--color-principal);
+    margin-bottom: 16px;
+}
+
+.menu-icon:hover:before {
+    box-shadow: 0 0 0 var(--color-principal);
+    transform: translateY(10px) rotate(45deg);
+}
+
+.menu-icon:hover:after {
+    transform: translateY(-10px) rotate(-45deg);
 }
 
 .first-container .hello-container h1 {
