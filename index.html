@@ -28,20 +28,18 @@
         <div class="logo">
           <img src="./assets/logo.svg" alt="logo" />
         </div>
-        <nav>
-          <label for="toggle" class="menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <input type="checkbox" name="toggle" id="toggle" />
-          <ul class="menu">
-            <li><a href="#"> Episodios </a></li>
-            <li><a href="#"> Nosotros </a></li>
-            <li><a href="#"> Entrevistas </a></li>
-            <li><a href="#"> Tópicos </a></li>
-          </ul>
-        </nav>
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#episodes"> Episodios </a></li>
+          <li><a href="#nosotros"> Nosotros </a></li>
+          <li><a href="#entrevistas"> Entrevistas </a></li>
+          <li><a href="#topicos"> Tópicos </a></li>
+        </ul>
       </div>
     </header>
     <section class="first-container">
@@ -62,7 +60,7 @@
         <button>CONOCÉ MÁS</button>
       </div>
     </section>
-    <section class="episodes">
+    <section class="episodes" id="episodes">
       <div class="episodes-content">
         <div class="episodes-title">
           <h2>Episodios</h2>
@@ -106,7 +104,7 @@
         </div>
       </div>
     </section>
-    <section class="cel-container">
+    <section class="cel-container" id="nosotros">
       <div class="cel-img">
         <img src="./assets/phone.png" alt="phone" />
       </div>
@@ -124,7 +122,7 @@
         </p>
       </div>
     </section>
-    <section class="women-invited">
+    <section class="women-invited" id="entrevistas">
       <div class="title-women">
         <h2>Invitadas/os estelares</h2>
       </div>
@@ -147,7 +145,7 @@
         </div>
       </div>
     </section>
-    <section class="temas-container">
+    <section class="temas-container" id="topicos">
       <div class="temas-title">
         <h2>Algunos de nuestros temas</h2>
       </div>
@@ -184,11 +182,21 @@
       <div class="footer-container">
         <div class="copyright"><p>&copy; 2021- Hello blue pale dot</p></div>
         <div class="icons-social">
-          <a href="#"><i class="fab fa-spotify"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="https://www.spotify.com/" target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://web.telegram.org/" target="_blank"
+            ><i class="fab fa-telegram"></i
+          ></a>
         </div>
       </div>
     </footer>
