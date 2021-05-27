@@ -33,7 +33,7 @@ header {
     height: 80px;
     background-color: var(--button-hover);
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 2;
 }
 
