@@ -419,11 +419,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         top: 3rem;
-        left: 0;
+        left: -100px;
         background-color: #0000A3;
         display: flex;
         width: 0%;
-        transition: width 0.5h ease-in-out;
+        transition: width 0.7s ease-in-out;
         overflow: hidden;
         text-align: left;
     }
@@ -454,6 +454,7 @@ footer {
 
     #toggle:checked~.menu {
         width: 100%;
+        left: 0;
         opacity: 1;
     }
 
@@ -709,11 +710,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         top: 3rem;
-        left: 0;
+        left: -100px;
         background-color: #0000A3;
         display: flex;
         width: 0%;
-        transition: width 0.5h ease-in-out;
+        transition: width 0.7s ease-in-out;
         overflow: hidden;
         text-align: left;
     }
@@ -744,6 +745,7 @@ footer {
 
     #toggle:checked~.menu {
         width: 100%;
+        left: 0;
         opacity: 1;
     }
 
@@ -999,11 +1001,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         top: 3rem;
-        left: 0;
+        left: -100px;
         background-color: #0000A3;
         display: flex;
         width: 0%;
-        transition: width 0.5h ease-in-out;
+        transition: width 0.7s ease-in-out;
         overflow: hidden;
         text-align: left;
     }
@@ -1034,6 +1036,7 @@ footer {
 
     #toggle:checked~.menu {
         width: 100%;
+        left: 0;
         opacity: 1;
     }
 
@@ -1289,11 +1292,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         top: 3rem;
-        left: 0;
+        left: -100px;
         background-color: #0000A3;
         display: flex;
         width: 0%;
-        transition: width 0.5h ease-in-out;
+        transition: width 0.8s ease-in-out;
         overflow: hidden;
         text-align: left;
     }
@@ -1324,6 +1327,7 @@ footer {
 
     #toggle:checked~.menu {
         width: 100%;
+        left: 0;
         opacity: 1;
     }
 
@@ -1579,11 +1583,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         top: 3rem;
-        left: 0;
+        left: -100px;
         background-color: #0000A3;
         display: flex;
         width: 0%;
-        transition: width 0.5h ease-in-out;
+        transition: width 0.8s ease-in-out;
         overflow: hidden;
         text-align: left;
     }
@@ -1614,6 +1618,7 @@ footer {
 
     #toggle:checked~.menu {
         width: 100%;
+        left: 0;
         opacity: 1;
     }
 
@@ -1816,7 +1821,3 @@ footer {
         font-size: 16px;
     }
 }
-
-/* LAPTOP */
-
-@media screen and (min-width:1300px) and (max-width:1500px) {}
